@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+:root{
+    --pink: #f085c3;
+}
+ 
+  
+ .customer-details{
+    display: grid;
+    line-height: 1.5;
+    margin: 0;
+    min-block-size: 100vh;
+    padding: 5vmin;
+    place-items: center;
+    box-sizing: inherit;
+  }
+  
+  address{
+    font-style: normal;
+  }
+  
+  button {
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+
+  }
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-block: 0 1.5em;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-block: 0 0.5em;
+  }
+  
+  legend {
+    font-weight: 600;
+    margin-block-end: 0.5em;
+    font-size: 2rem;
+  }
+  
+  input {
+    border: 0;
+    margin: 5px 0;
+  }
+  
+  input[type="radio"] {
+    accent-color: var(--color-primary);
+  }
+  
+  table {
+    border-collapse: collapse;
+    inline-size: 100%;
+  }
+  
+  tbody {
+    color: black;
+  }
+  
+  td {
+    padding-block: 0.125em;
+    font-size: 12px;
+  }
+  
+  tfoot {
+    border-top: 1px solid #b4b4b4;
+    font-weight: 600;
+  }
+  
+  .align {
+    display: grid;
+    place-items: center;
+  }
+  
+
+.button-container {
+    margin-top: auto;
+    text-align: center;
+}
+
+.button--full {
+    width: 100%;
+}
+
+
+
+.button {
+    align-items: center;
+    border-radius: 6px;
+    color: azure;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    padding-block: 0.75em;
+    padding-inline: 1em;
+    transition: 0.3s;
+    background-color: #4f6079;
+}
+
+  
+  .button:focus,
+  .button:hover {
+    background-color: var(--pink);
+    color: black;
+  }
+  
+  .button--full {
+    inline-size: 100%;
+    font-size: 1.5em;
+  }
+  
+  .card {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+  }
+  .card-app {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    width:20em;
+  }
+  .card-reservation {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    width:20em;
+  }
+  
+  .form {
+    gap: 2em;
+  }
+  
+  .form__radios {
+    display: grid;
+    gap: 1em;
+  }
+  
+  .form__radio {
+    align-items: center;
+    background-color: #fefdfe;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    display: flex;
+    padding: 1em;
+  }
+  
+  .form__radio label {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    gap: 1em;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-block: 0.5em;
+    padding-inline: 1em;
+  }
+  
+  .icon-details {
+    block-size: 1em;
+    display: inline-block;
+    fill: currentColor;
+    inline-size: 1em;
+    vertical-align: middle;
+  }
+  
+  .iphone {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(255, 225, 225,1);
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    overflow: auto;
+    padding: 2em;
+    margin-top: 7.5rem;
+  }
+  .iphone-reservations {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(255, 225, 225,1);
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    overflow: auto;
+    padding: 2em;
+    margin-top: 2em;
+  }
+  
+  .cus-res-title h2{
+    margin-top: 3em;
+  }
+
+.shopping-basket-app {
+    width: 80%;
+    margin: 1em auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 2em;
+}
+
+.shopping-basket-app .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 2em 2em; 
+  border-bottom: 1px solid #d5d7da; 
+}
+
+.shopping-basket-app .basket-image {
+  flex-shrink: 0;
+  width: 10%; 
+  margin: 0 1em ; 
+}
+
+.shopping-basket-app .basket-image img {
+  width: 100px;  
+  height: 100px;  
+  object-fit: contain; 
+}
+
+.shopping-basket-app .description {
+  width: auto;
+}
+
+.description span {
+ display: block;
+ font-size: 12px;
+ color: #43484D;
+ width: 100%;
+}
+.description span:first-child {
+ margin-bottom: 5px;
+}
+.description span:nth-last-child(-n+2){
+ font-weight: 300;
+ margin-top: 8px;
+ color: #86939E;
+}
+.quantity {
+ padding-top: 20px;
+}
+.quantity input {
+ border: none;
+ text-align: center;
+ width: 32px;
+ font-size: 16px;
+ color: #43484D;
+ font-weight: 300;
+}
+
+.total-price {
+  padding-top: 27px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+   display: flex;
+   font-size: 1.5em;
+   color: #f085c3;
+   font-weight: bold;
+}
+.total-price-app-create {
+  padding-top: 27px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+   display: flex;
+   font-size: 1.5em;
+   color: #f085c3;
+   font-weight: bold;
+}
+
+
+@media only screen and (max-width: 720px){
+
+  .button-container {
+    margin-top: auto;
+    text-align: center;
+}
+
+.button--full {
+    width: 100%;
+}
+
+address{
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+
+.button {
+    align-items: center;
+    border-radius: 6px;
+    color: azure;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    padding-block: 0.75em;
+    padding-inline: 1em;
+    transition: 0.3s;
+    background-color: #4f6079;
+}
+
+  
+  .button:focus,
+  .button:hover {
+    background-color: var(--pink);
+    color: black;
+  }
+  
+  .button--full {
+    inline-size: 100%;
+    font-size: 1.5em;
+  }
+  
+  .card {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    width:100%;
+    line-height: 2;
+  }
+  .card-app {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    width:20em;
+  }
+  .card-reservation {
+    width:100%;
+  }
+  
+  .form {
+    gap: 2em;
+  }
+  
+  .form__radios {
+    display: grid;
+    gap: 1em;
+  }
+  
+  .form__radio {
+    align-items: center;
+    background-color: #fefdfe;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    display: flex;
+    padding: 1em;
+  }
+  
+  .form__radio label {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    gap: 1em;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-block: 0.5em;
+    padding-inline: 1em;
+  }
+  
+  .icon-details {
+    block-size: 1em;
+    display: inline-block;
+    fill: currentColor;
+    inline-size: 1em;
+    vertical-align: middle;
+  }
+
+  /* selected items - appointment */
+  .iphone {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 225, 225,1);
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    overflow: auto;
+    padding: 2em;
+    margin-top: 7.5rem;
+  }
+
+  .iphone-reservations {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 225, 225,1);
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    overflow: auto;
+    padding: 2em;
+    margin-top: 2em;
+  }
+  
+  .cus-res-title h2{
+    margin-top: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+}

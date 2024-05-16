@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #f1b4dd), url('https://wallpaperaccess.com/full/229838.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.index-logo{
+    width: 200px;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: azure;
+
+} 
+
+.banner-content h1{
+    font-size: 4em;
+    padding-bottom: 30px;
+}
+.banner-content p{
+    text-align: center;
+    font-style: italic;
+    padding: 0 10%;
+    margin-bottom: 40px;
+}
+.banner-button a{
+    background-color: #4f6079;
+    width: 150px;
+    text-decoration: none;
+    margin-right:10px;
+    margin-top: 10px;
+    padding: 10px 12px;
+    color: azure;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.banner-button a:hover{
+    background-color: #f1b4dd;
+    color: rgb(58, 57, 57);
+}

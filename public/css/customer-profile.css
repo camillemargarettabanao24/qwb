@@ -1,0 +1,85 @@
+.iphone-profile {
+    width:100em;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(255, 225, 225,1);
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    overflow: auto;
+    padding: 2em;
+    margin-top: 7.5rem;
+    justify-content: center;
+  } 
+
+  .card-profile {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    width:65em;
+  }
+
+  .user-name{
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    width: 16%;
+}
+
+.address-app {
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 720px)
+{
+  .iphone-profile {
+    width:75em;
+    margin-top: 8em;
+  } 
+
+  .card-profile {
+    background-color: #fefdfe;
+    border-radius: 6px;
+    color: black;
+    padding: 1em;
+    font-size: 2em;
+    margin-top: 1em;
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.10);
+    width:35em;
+  }
+
+  .user-name{
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    font-size: 1em;
+    width: 80%;
+}
+
+.address-app {
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.number{
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.customer-details{
+  display: block;
+  justify-content: center;
+  line-height: 1.8;
+  margin: 0;
+  place-items: center;
+  box-sizing: inherit;
+}
+
+}

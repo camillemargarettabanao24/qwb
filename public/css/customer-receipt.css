@@ -1,0 +1,51 @@
+.btn {
+    align-items: center;
+    border-radius: 999em;
+    color: azure;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    padding-block: 0.75em;
+    padding-inline: 1em;
+    transition: 0.3s;
+    background-color: #4f6079;
+    inline-size: 100%;
+  }
+ 
+.btn:hover{
+    cursor: auto;
+}
+
+.crd address{
+    text-align: center;
+}
+
+.crd address img{
+    width: 50%;
+    height: 50%;
+  }
+
+  .crd {
+    background-color: #fefdfe;
+    border-radius: 1em;
+    color: black;
+    padding: 1em;
+    font-size: 1.4rem;
+  }
+
+  td{
+    font-size: 1.3rem;
+  }
+
+  .app-transaction-slip {
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(255, 225, 225,1);
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    overflow: auto;
+    padding: 2em;
+    margin-top: 7.5rem;
+  }
+  

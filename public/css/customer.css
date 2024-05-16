@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(248, 246, 246, 0.5), rgb(240, 164, 164));
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+form{
+    height: 80%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 2em;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    background-color: rgba(255,255,255,0.07);
+    margin-top: 0.3em;
+    width: 98%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 1em 0 1em 1em;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+#login-fieldset input:nth-child(4) {
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 3em;
+    width: 40%;
+    background-color: #4f6079;
+    color: #ffffff;
+    padding: 0.4em 0;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(255,225,225,1);
+}
+.social{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #4f6079;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+h5{
+    margin-top: 1em;
+}
+h6{
+    margin-top: 1em;
+}
+h2{
+    color:#4f6079;
+}
+
+/* SIGN UP FORM */
+fieldset .login{
+    background-color: rgba(255,255,255,0.07);
+    margin-top: 1em;
+    width: 90%;
+    height: 1em;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 1em 0 1em 1em;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+/* STAFF LOGIN FORM */
+.staff-login button{
+    margin-top: 8em;
+    width: 40%;
+    background-color: #4f6079;
+    color: #ffffff;
+    padding: 0.4em 0;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.staff-login button:hover{
+    background-color: rgba(255,225,225,1);
+}
+.social{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 720px){
+    html{
+        font-size: 1em;
+        width:100%;
+        height:100vh;
+    }
+    
+    body {
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    body {
+        background-image: none;
+        background-size: cover;
+    }
+    
+    form{
+        width:70%;
+        height:40%;
+        background-color: rgba(255,255,255,0.13);
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 25px rgba(8,7,16,0.6);
+        padding: 2em;
+        margin: 0;
+        top:0;
+        margin-top:50em;
+        align-items: center;
+
+        
+    }
+    form *{
+        font-family: 'Poppins',sans-serif;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+    }
+    
+    h2{
+        font-size: 2em;
+    }
+
+    input{
+        font-size: 1.5em;
+    }
+
+    /* STAFF LOGIN FORM */
+.staff-login button{
+    font-size: 1.5em;
+    margin-top: 2.5em;
+}
+button{
+    font-size: 1.5em;
+    margin-top: 2.5em;
+}
+
+}

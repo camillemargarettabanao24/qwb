@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --pink: #f085c3;
+}
+
+ h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* product pic */
+
+.indivproducts{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+ .indivproducts .box-container{
+    margin-top: 3rem; 
+    margin-bottom: 3rem; 
+    margin-left: 10rem;
+    margin-right: 2rem;
+ }
+
+ .indivproducts .box-container .box{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0,.1);
+    border-radius: .5rem;
+    border: .1rem solid rgb(0, 0, 0,.1);
+    position: relative;
+}  
+
+.indivproducts .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.indivproducts .box-container .box .image img{
+    width: 75%;
+}
+
+.indivproducts .box-container .box:hover .image img{
+    transform: scale(1.1);
+
+}
+
+/* details */
+.indivproducts .box-details{
+    width: 50%;
+    height: 100%;
+    margin-top: 5px;
+}
+ .indivproducts .box-container .box-details{
+    display: flex;
+    position: relative;
+}  
+
+.indivproducts .box-details .indiv-content{
+    width: 70%;
+    padding: 2rem;
+}
+
+.indivproducts .box-details .indiv-content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+.indivproducts .box-details .indiv-content .price{
+    font-size: 2rem;
+    color: var(--pink);
+    font-weight: bolder;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#indivproducts .box-details .indiv-content h6{
+    font-size: 10px;
+    padding: 5px 0 20px 0;
+}
+
+#indivproducts .box-details .indiv-content h2{
+    font-size: 3rem;
+}
+#indivproducts .box-details .indiv-content h4{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+#indivproducts .box-details .indiv-content span{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+#indivproducts .box-details .indiv-content .select-option{
+    display: flex;
+    justify-content: space-between;
+}
+
+#indivproducts .box-details .indiv-content .quantity{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#indivproducts .box-details .indiv-content input{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-left: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+#indivproducts .box-details .indiv-content button{
+    width: 100%;
+    margin: 8em 0;
+    padding: .5rem .5rem;
+    background-color: #4f6079;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#indivproducts .box-details .indiv-content button:hover{
+    background-color: var(--pink);
+}
+#indivproducts .box-details .indiv-content .confirm{
+    margin: 2rem 0;
+}
+#indivproducts .box-details .indiv-content .confirm button{
+    width: 50%;
+    height: 50%;
+    padding: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #4f6079;
+    border-radius: 20px;
+}
+#indivproducts .box-details .indiv-content .confirm button:hover{
+    background-color: var(--pink);
+}
+#indivproducts .box-details .indiv-content .confirm button a{
+   text-decoration: none;
+   color: azure;
+}
+
+
+
+
+
+/* h3 heading for other products in add2cart*/
+.heading h3{
+    margin-left: 5em;
+}
+
+.form-group{
+    margin: 2em 0;
+}
+
+.form-group select{
+        background-color: rgb(255, 225, 225,1);
+        padding: .5rem .5rem;
+        border-radius: 5px;
+        width: 40%;
+}
+
+.form-group p{
+    margin: .5em;
+    font-size: 12px;
+}
+
+/* images */
+.add2cart-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:1em 1em 1em 0;
+    width: 100%;
+}
+.add2cart-image img{
+    width: 10em;
+    height: 10em;
+    object-fit: contain;
+    margin-right: 1em;
+}
+
+
+@media only screen and (max-width: 720px){
+    .indivproducts .box-container{
+        margin-top: 3rem; 
+        margin-bottom: 3rem; 
+        margin-left: 10rem;
+        margin-right: 2rem;
+        width: 35em;
+     }
+
+     .form-group select{
+        background-color: rgb(255, 225, 225,1);
+        padding: .5rem .5rem;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 1em;
+    }
+
+    #indivproducts .box-details .indiv-content span{
+        font-size: 2em;
+        margin: 1rem 0;
+    }
+
+    .form-group{
+        margin: 1em 0;
+        font-size: 1.5em;
+    }
+
+    #indivproducts .box-details .indiv-content button{
+        margin: 5em 0;
+    }
+    
+    .image-carousel img {
+        width: 30em;
+        text-align: center;
+        object-fit: contain;
+      }
+}
